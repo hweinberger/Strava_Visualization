@@ -1,0 +1,10 @@
+
+
+##Actual API Response
+
+access_token":"0a50886d4490182dd5578de192462b97f5de5a8d","token_type":"Bearer"
+
+
+curl -G https://www.strava.com/api/v3/athlete/activities \
+    -H "Authorization: Bearer 0a50886d4490182dd5578de192462b97f5de5a8d"
+    -d per_page=1
